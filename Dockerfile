@@ -1,6 +1,6 @@
 FROM python:buster
 
-RUN python3 -m pip install --upgrade radicale==2.1.11 passlib
+RUN python3 -m pip install --upgrade radicale==2.1.11 passlib bcrypt
 EXPOSE 5232
 VOLUME /app/data
 VOLUME /app/config
